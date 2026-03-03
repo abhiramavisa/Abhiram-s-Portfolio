@@ -57,28 +57,37 @@
     </div>
 
     <div class="about-right">
+
+
+
       <!-- Desktop Tabs -->
       <div class="tab-titles">
-        <p class="tab-links active-link" onclick="openTab('achievements')">Achievements</p>
-        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+        <p class="tab-links active-link" onclick="openTab('experience')">Experience</p>
+        <p class="tab-links" onclick="openTab('achievements')">Achievements</p>
         <p class="tab-links" onclick="openTab('education')">Education</p>
       </div>
 
-      <div class="tab-contents active-tab fade-in" id="achievements">
+      <!-- EXPERIENCE FIRST -->
+      <div class="tab-contents active-tab fade-in" id="experience">
         <ul class="custom-list">
-          <li>Winner of Datahack hackathon conducted by VCE 2025</li>
-          <li>Organized an event named “Ideathon” as a part of “Festronix” conducted by VCE, 2024</li>
-          <li>Held positions such as Event Organizer and Class Representative.</li>
-        </ul>
-      </div>
-
-      <div class="tab-contents" id="experience">
-        <ul class="custom-list">
+          <li>AI Image Annotation Intern (Offline, Stipend Based) — Student Tribe (Currently Working)</li>
+          <li>Data Science Intern (Virtual) — SkillCraft Technologies (Currently Working)</li>
           <li>Online Intern in “Artificial Intelligence and Machine Learning using Python” at NIELIT Virtual Academy</li>
           <li>Built multiple dashboards & predictive models</li>
         </ul>
       </div>
 
+      <!-- ACHIEVEMENTS SECOND -->
+      <div class="tab-contents" id="achievements">
+        <ul class="custom-list">
+          <li>Winner of Datahack hackathon conducted by VCE 2025</li>
+          <li>Event Organizer: Led “Hack with Gemini” Hackathon as Event Head (2025) and organized Ideathon at Festronix, VCE(2024)</li>
+          <li>Associate Manager: Served as Associate Manager (Operations) for TEDx 2025 at VCE.</li>
+          <li>Class Representative: Represented student interests and coordinated with faculty.</li>
+        </ul>
+      </div>
+
+      <!-- EDUCATION -->
       <div class="tab-contents" id="education">
         <ul class="custom-list">
           <li>B.Tech in Computer Science (Data Science) - Vardhaman College of Engineering (VCE)</li>
@@ -88,27 +97,34 @@
 
       <!-- Mobile Dropdown Version -->
       <div class="about-mobile-dropdowns">
-        <details>
-          <summary>Achievements</summary>
-          <div class="dropdown-content">
-            <ul class="custom-list">
-              <li>Winner of Datahack hackathon conducted by VCE 2025</li>
-              <li>Organized “Ideathon” for Festronix 2024</li>
-              <li>Held positions such as Event Organizer and Class Representative.</li>
-            </ul>
-          </div>
-        </details>
 
-        <details>
+        <!-- EXPERIENCE FIRST -->
+        <details open>
           <summary>Experience</summary>
           <div class="dropdown-content">
             <ul class="custom-list">
-              <li>Online Intern in AI & ML using Python at NIELIT</li>
+              <li>AI Image Annotation Intern (Offline, Stipend Based) — Student Tribe (Currently Working)</li>
+              <li>Data Science Intern (Virtual) — SkillCraft Technologies (Currently Working)</li>
+              <li>Online Intern in “Artificial Intelligence and Machine Learning using Python” at NIELIT Virtual Academy</li>
               <li>Built multiple dashboards & predictive models</li>
             </ul>
           </div>
         </details>
 
+        <!-- ACHIEVEMENTS SECOND -->
+        <details>
+          <summary>Achievements</summary>
+          <div class="dropdown-content">
+            <ul class="custom-list">
+              <li>Winner of Datahack hackathon conducted by VCE 2025</li>
+              <li>Event Organizer: Led “Hack with Gemini” Hackathon as Event Head (2025) and organized Ideathon at Festronix, VCE(2024)</li>
+              <li>Associate Manager: Served as Associate Manager (Operations) for TEDx 2025 at VCE.</li>
+              <li>Class Representative: Represented student interests and coordinated with faculty.</li>
+            </ul>
+          </div>
+        </details>
+
+        <!-- EDUCATION -->
         <details>
           <summary>Education</summary>
           <div class="dropdown-content">
